@@ -13,9 +13,11 @@ import PrimarySearchAppBar from './NavBar';
 
 const styles = theme => ({
   card: {
+    alignSelf: 'center',
     display: 'flex',
     alignItems: 'center',
     alignContent: 'center',
+    justifyContent: 'center',
   },
   details: {
     display: 'flex',
@@ -23,18 +25,18 @@ const styles = theme => ({
   },
   content: {
     flex: '1 0 auto',
+    height: 450,
   },
   cover: {
     width: 151,
   },
   controls: {
     display: 'flex',
-    alignItems: 'center',
     paddingLeft: theme.spacing.unit,
     paddingBottom: theme.spacing.unit,
   },
   playIcon: {
-    height: 38,
+    height: 38, 
     width: 38,
   },
 });
@@ -69,7 +71,7 @@ function MediaControlCard(props) {
       </div>
       <CardMedia
         className={classes.cover}
-        image="/static/images/cards/live-from-space.jpg"
+        image=""
         title="Live from space album cover"
       />
     </Card>
