@@ -3,7 +3,7 @@ import {Carousel} from 'react-bootstrap';
 import './R.css';
 
 
-class ControlledCarousel extends React.Component {
+class ControlledCarousel extends Component {
     constructor(props, context) {
       super(props, context);
   

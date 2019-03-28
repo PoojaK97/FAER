@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './R.css';
 import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
-import {Jumbotron, Container, Row, Col} from 'react-bootstrap';
+import {Jumbotron} from 'react-bootstrap';
 import AppBar from '@material-ui/core/AppBar';
 import classNames from 'classnames';
-import purple from '@material-ui/core/colors/purple';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
